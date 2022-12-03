@@ -6,4 +6,17 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.0" />
+  </ItemGroup>
+
+	<PropertyGroup>
+		<PackageId>Olizia.Libraries.Infrascructure.Abstractions</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>Otávio Villas Boas</Authors>
+		<Company>Olizia</Company>
+		<PackageDescription>Esse pacote é de uso geral para recursos utilizados em quaisquer tipos de projetos de modo abstraído.</PackageDescription>
+		<RepositoryUrl>https://github.com/Olizia/Olizia.Libraries.Infrascructure.Abstractions</RepositoryUrl>
+	</PropertyGroup>
+
 </Project>
